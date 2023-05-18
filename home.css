@@ -1,0 +1,36 @@
+.m{
+    background-color: rgba(46, 208, 208, 0.548);
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    color: #333;
+}
+.section p {
+    color: #666;
+}
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact-info .item {
+    width: 50%;
+    padding: 5px;
+}
+.facilities-list {
+    list-style-type: disc;
+}
+.timing-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.timing-table th,
+.timing-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
